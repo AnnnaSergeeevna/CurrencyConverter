@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+input {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.usd-label,
+.usd-input {
+    color: rgb(103, 174, 91);
+}
+
+.eur-label,
+.eur-input {
+    color: rgb(65, 79, 176);
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+}
